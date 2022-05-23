@@ -26,7 +26,7 @@
     background-color: rgb(231, 221, 240);
     place-items: center;
     padding: 3px;
-    box-shadow: 5px 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     margin-top: 50px;
 }
 
@@ -39,6 +39,8 @@
     height: 20px;
     margin-bottom: 20px;
     padding: 10px;
+    border: none;
+    background-color: aliceblue;
 }
 
 
@@ -111,15 +113,17 @@ img{
 }
 
 .register{
-    padding: 2rem;
+    padding: 1rem;
     text-transform: uppercase;
     background-color:rgb(211, 169, 176);
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: grid;
+    place-items: Center;
 }
 .register form{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 20px;
+    gap: 10px;
 }
 .register button{
     margin-left: -80px;
@@ -129,7 +133,7 @@ img{
     background-color: transparent;
 }
 .register input{
-    width: 200px;
+    width: 180px;
     height: 25px;
     background-color: transparent;
 }
@@ -157,7 +161,44 @@ img{
     background-color: black;
     color: aqua;
 }
-.ister{
-    background-color: rgb(130, 104, 155);
+
+.calculator{
+    margin-top: 10px;
+
 }
+/* td, tr{
+ border: 2px solid;
+} */
+
+
+.hom{
+    background-color: antiquewhite;
+}
+.wit{
+    width: 80px;
+}
+table, td{
+    width: 300px;
+    height: 50px;
+}
+table input{
+    padding: 20px;
+}
+.cac{
+    display: grid;
+    place-items: center;
+}
+.sim{
+    margin-top: 20px;
+    height: 600px;
+    width: 400px;
+    background-image: url(./images/simi.jpg);
+    background-size: cover;
+}
+.sim h3{
+    text-align: center;
+    font-weight: 700;
+    font-size: 30px;
+}
+
 
